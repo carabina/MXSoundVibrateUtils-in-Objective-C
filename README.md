@@ -1,19 +1,15 @@
-# MXTouchID-in-Objective-C
+# MXSoundVibrateUtils-in-Objective-C
 
-`MXTouchID` is an easy-to-use class for Touch ID on iOS.
+`MXSoundVibrateUtils` is an easy-to-use class to play sound and vibrate on iOS. 
 
 ## Installation with CocoaPods
 
 ```
-pod 'MXTouchID'
+pod 'MXSoundVibrateUtils'
 ```
 
 ## Usage
 
 ```
-if ([MXTouchID touchIDEnabled]) {
-  [MXTouchID touchIDEvaluateWithMessage:@"This is a message" completed:^(BOOL success, NSString *msg, NSError *authenticationError) {
-    // code here...
-  }];
-}
+[[[MXSoundVibrateUtils alloc] initForPlayingSystemSoundEffectWithSoundIDEnum:MXSystemSoundIDDefault] play];
 ```

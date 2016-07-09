@@ -22,6 +22,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [[[MXSoundVibrateUtils alloc] initForDefault] play];
+    [[[MXSoundVibrateUtils alloc] initForPlayingSystemSoundEffectWithSoundIDEnum:MXSystemSoundIDDefault] play];
 }
 
 - (void)didReceiveMemoryWarning {
