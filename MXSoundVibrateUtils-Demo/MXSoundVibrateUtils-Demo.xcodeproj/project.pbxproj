@@ -13,6 +13,7 @@
 		5C7A8EE31D30F0B300A82719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A8EE11D30F0B300A82719 /* Main.storyboard */; };
 		5C7A8EE51D30F0B300A82719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A8EE41D30F0B300A82719 /* Assets.xcassets */; };
 		5C7A8EE81D30F0B300A82719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A8EE61D30F0B300A82719 /* LaunchScreen.storyboard */; };
+		5C7A8EF21D30F32800A82719 /* MXSoundVibrateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A8EF11D30F32800A82719 /* MXSoundVibrateUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5C7A8EE41D30F0B300A82719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C7A8EE71D30F0B300A82719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C7A8EE91D30F0B300A82719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7A8EF01D30F32800A82719 /* MXSoundVibrateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSoundVibrateUtils.h; sourceTree = "<group>"; };
+		5C7A8EF11D30F32800A82719 /* MXSoundVibrateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSoundVibrateUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		5C7A8ED71D30F0B300A82719 /* MXSoundVibrateUtils-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5C7A8EEF1D30F32800A82719 /* MXSoundVibrateUtils */,
 				5C7A8EDB1D30F0B300A82719 /* AppDelegate.h */,
 				5C7A8EDC1D30F0B300A82719 /* AppDelegate.m */,
 				5C7A8EDE1D30F0B300A82719 /* ViewController.h */,
@@ -77,6 +81,16 @@
 				5C7A8ED91D30F0B300A82719 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C7A8EEF1D30F32800A82719 /* MXSoundVibrateUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5C7A8EF01D30F32800A82719 /* MXSoundVibrateUtils.h */,
+				5C7A8EF11D30F32800A82719 /* MXSoundVibrateUtils.m */,
+			);
+			name = MXSoundVibrateUtils;
+			path = ../../MXSoundVibrateUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7A8EF21D30F32800A82719 /* MXSoundVibrateUtils.m in Sources */,
 				5C7A8EE01D30F0B300A82719 /* ViewController.m in Sources */,
 				5C7A8EDD1D30F0B300A82719 /* AppDelegate.m in Sources */,
 				5C7A8EDA1D30F0B300A82719 /* main.m in Sources */,
